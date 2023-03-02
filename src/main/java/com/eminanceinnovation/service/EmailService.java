@@ -17,7 +17,7 @@ public class EmailService {
 		
 		boolean f=false;
 		
-		String from="bhabani.eminenceinnovation@gmail.com";
+		String from="";
 			
 		String host="smtp.gmail.com";
 		
@@ -27,8 +27,8 @@ public class EmailService {
 		properties.put("mail.smtp.starttls.enable","true");
 		properties.put("mail.smtp.auth","true");
 		
-		String username="bhabani.eminenceinnovation";
-		String password="evrmixkjksvkafia";
+		String username="";
+		String password="";
 		
 	Session session = Session.getInstance(properties, new Authenticator() {
 
